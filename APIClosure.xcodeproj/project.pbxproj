@@ -12,6 +12,8 @@
 		2FAC149E20C670C800942059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC149C20C670C800942059 /* Main.storyboard */; };
 		2FAC14A020C670C800942059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC149F20C670C800942059 /* Assets.xcassets */; };
 		2FAC14A320C670C800942059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC14A120C670C800942059 /* LaunchScreen.storyboard */; };
+		2FAC14AB20C670DB00942059 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14AA20C670DB00942059 /* DataService.swift */; };
+		2FAC14AD20C6710C00942059 /* Champ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC14AC20C6710C00942059 /* Champ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2FAC149F20C670C800942059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FAC14A220C670C800942059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FAC14A420C670C800942059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FAC14AA20C670DB00942059 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2FAC14AC20C6710C00942059 /* Champ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,31 @@
 			isa = PBXGroup;
 			children = (
 				2FAC149820C670C800942059 /* AppDelegate.swift */,
-				2FAC149A20C670C800942059 /* ViewController.swift */,
+				2FAC14AF20C6722300942059 /* ViewController */,
+				2FAC14AE20C6721600942059 /* DataService */,
 				2FAC149C20C670C800942059 /* Main.storyboard */,
 				2FAC149F20C670C800942059 /* Assets.xcassets */,
 				2FAC14A120C670C800942059 /* LaunchScreen.storyboard */,
 				2FAC14A420C670C800942059 /* Info.plist */,
 			);
 			path = APIClosure;
+			sourceTree = "<group>";
+		};
+		2FAC14AE20C6721600942059 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC14AA20C670DB00942059 /* DataService.swift */,
+				2FAC14AC20C6710C00942059 /* Champ.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		2FAC14AF20C6722300942059 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC149A20C670C800942059 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAC14AB20C670DB00942059 /* DataService.swift in Sources */,
 				2FAC149B20C670C800942059 /* ViewController.swift in Sources */,
 				2FAC149920C670C800942059 /* AppDelegate.swift in Sources */,
+				2FAC14AD20C6710C00942059 /* Champ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
